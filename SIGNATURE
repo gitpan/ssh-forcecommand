@@ -1,0 +1,35 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 a09e38cf7cb71add4921a579a447a8d301bafcd3 Build.PL
+SHA1 4dc72ef8dad3bdb1d5342e0ebddfb61679e2ecb9 COPYING
+SHA1 a659a39b5f55d70d449fa775d83c40be42c16efa Changelog
+SHA1 c7913b3330e2d32ba9614a78d059c75f1341641c MANIFEST
+SHA1 f16f6d7d563925cc71e342373c5b94934e0d97be META.yml
+SHA1 5a3b201bb39d329baae343a6a2f7551c523cc4c0 README
+SHA1 70dbb4f872d3712f377b4743616c68e93d787879 bin/ssh-forcecommand
+SHA1 f1f4f44119baf4cb75a0a578b1cf2273c427bcf7 examples/backup
+SHA1 2f99168a03a7f27961ee305848d8daa077867596 examples/nagios
+SHA1 8a58ee3fdbf00e17575addb1f7b0309caeb34848 t/01-compile-pl.t
+SHA1 6f40f130e83678df1299ba77678c833e40e89a02 t/60-regression.t
+SHA1 e20f99d6d5efcded1ac441538b61769dc06ff613 t/config
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk3Tw4gACgkQjuWtMO0ss3/1eACaAs7UexKZfQJl+lcc+YcyUnwM
+MHMAmwSuAo/M0Xe/lT62f69Ul7DnU+iM
+=768O
+-----END PGP SIGNATURE-----

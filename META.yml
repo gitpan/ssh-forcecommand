@@ -1,0 +1,19 @@
+---
+abstract: 'Whitelist remote commands via ssh config'
+author:
+  - 'Copyright (C) 2010,2011 by Daniel Friesel E<lt>derf@finalrewind.orgE<gt>'
+build_requires:
+  Test::Command: 0
+  Test::Compile: 0
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: unrestricted
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: ssh-forcecommand
+requires:
+  perl: v5.10.0
+version: 1.0

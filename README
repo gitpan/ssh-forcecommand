@@ -1,0 +1,37 @@
+ssh-forcecommand - Whitelist remote commands via ssh config
+-----------------------------------------------------------
+
+* <http://derf.homelinux.org/projects/ssh-forcecommand/>
+
+
+Dependencies
+------------
+
+ * perl version 5.10 or newer
+
+
+Installation
+------------
+
+$ perl Build.PL
+$ perl Build
+$ sudo perl Build install
+
+By default, ssh-forcecommand is installed as /usr/local/bin/ssh-forcecommand.
+In case you do not want to have in $PATH, you can use --install_path to change
+this. For example, for a nagios forcecommand:
+
+$ sudo perl Build install --install_path script=/usr/local/lib/nagios
+
+Usage
+-----
+
+The documentation is available via "perldoc bin/ssh-forcecommand" or (after
+installation) "man ssh-forcecommand".
+
+Testing
+-------
+
+$ perl Build test
+
+Requires the perl modules Test::Command, Test::Compile and Test::More.
